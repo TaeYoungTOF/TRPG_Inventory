@@ -3044,10 +3044,10 @@ MonoBehaviour:
   itemInfoHp: {fileID: 18660562}
   itemInfoCrit: {fileID: 396650303}
   itemInfo: {fileID: 1493737151}
-  slots: []
-  currentSlot: {fileID: 0}
   itemSlotPrefab: {fileID: 8557546269021020297, guid: 58ad31d0c7ec0384f92551b40c08afe2, type: 3}
   content: {fileID: 960859025}
+  slots: []
+  currentSlot: {fileID: 0}
 --- !u!1 &830858918
 GameObject:
   m_ObjectHideFlags: 0

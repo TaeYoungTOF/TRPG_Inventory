@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Health Potion
   description: This is Health Potion
-  itemtype: 0
+  itemtype: 1
   icon: {fileID: 21300000, guid: 66eb86df304895948a183c61297adcb7, type: 3}
   canStack: 1
   maxStackAmount: 10
