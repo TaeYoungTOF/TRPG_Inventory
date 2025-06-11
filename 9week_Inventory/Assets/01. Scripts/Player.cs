@@ -78,4 +78,20 @@ public class Player : MonoBehaviour, IDamagable
     {
         return Random.value < Crit;
     }
+
+    public void Equip(ItemData item)
+    {
+        atk += item.atkValue;
+        def += item.defValue;
+        hp += item.hpValue;
+        crit += item.critValue;
+    }
+
+    public void UnEquip(ItemData item)
+    {
+        atk -= item.atkValue;
+        def -= item.defValue;
+        hp -= item.hpValue;
+        crit -= item.critValue;
+    }
 }
